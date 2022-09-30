@@ -1,0 +1,25 @@
+body {
+  background-color: #f5c239;
+  color: #3862f5;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Noto Sans Mono';
+}
+
+div {
+  font-family: 'Roboto';
+  padding: 20px;
+}
+
+footer {
+  padding-top: 20px;
+  background-color: #3862f5;
+  color: #f5c239;
+}
