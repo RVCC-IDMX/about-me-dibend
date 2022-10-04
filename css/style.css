@@ -40,3 +40,9 @@ footer {
   border-radius: 40px;
   max-width: 100%;
 }
+
+.lit {
+  font-family: 'Noto Sans Mono';
+  text-align: left;
+  text-shadow: 0.1em 0.1em 0 white;
+}
