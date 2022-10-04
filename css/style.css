@@ -1,5 +1,6 @@
 body {
   background-color: #f5c239;
+  font-family: 'Roboto';
   text-align: center;
 }
 
@@ -13,7 +14,6 @@ h6 {
 }
 
 div {
-  font-family: 'Roboto';
   padding: 20px;
 }
 
@@ -27,4 +27,14 @@ footer {
   background-color: #3862f5;
   border: solid white;
   border-radius: 30px;
+  width: 15rem;
+}
+
+.hobbies img {
+  border-radius: 40px;
+}
+
+.hobbies ul {
+  list-style-type: circle;
+  list-style-position: inside;
 }
