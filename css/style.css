@@ -26,4 +26,5 @@ footer {
 .avatar {
   background-color: #3862f5;
   border: solid white;
+  border-radius: 30px;
 }
