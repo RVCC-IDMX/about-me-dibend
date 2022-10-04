@@ -30,11 +30,13 @@ footer {
   width: 15rem;
 }
 
-.hobbies img {
-  border-radius: 40px;
-}
-
 .hobbies ul {
   list-style-type: circle;
   list-style-position: inside;
+}
+
+.gallery figure img {
+  border: solid #3862f5;
+  border-radius: 40px;
+  max-width: 100%;
 }
