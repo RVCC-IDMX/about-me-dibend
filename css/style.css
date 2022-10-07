@@ -1,6 +1,6 @@
 body {
   background-color: #f5c239;
-  font-family: 'Roboto';
+  font-family: Roboto, sans-serif;
   text-align: center;
 }
 
@@ -10,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Noto Sans Mono';
+  font-family: "Noto Sans Mono", sans-serif;
 }
 
 div {
@@ -42,7 +42,7 @@ footer {
 }
 
 .lit {
-  font-family: 'Noto Sans Mono';
+  font-family: "Noto Sans Mono", sans-serif;
   text-align: left;
   text-shadow: 0.1em 0.1em 0 white;
 }
