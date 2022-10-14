@@ -71,6 +71,7 @@ footer {
   }
   .card:hover {
     border: solid white;
+    text-shadow: 0.1em 0.1em 0 white;
   }
   figure img:hover {
     border: solid white;
