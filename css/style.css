@@ -10,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Noto Sans Mono", sans-serif;
+  font-family: 'Noto Sans Mono', sans-serif;
 }
 
 div {
@@ -39,10 +39,66 @@ footer {
   border: solid #3862f5;
   border-radius: 40px;
   max-width: 100%;
+  width: 100%;
 }
 
 .lit {
-  font-family: "Noto Sans Mono", sans-serif;
+  font-family: 'Noto Sans Mono', sans-serif;
   text-align: left;
   text-shadow: 0.1em 0.1em 0 white;
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dracula {
+  max-width: 100%;
+  columns: 40rem;
+}
+
+@media screen and (min-width: 60em) {
+  .bio-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+  }
+  .card {
+    border: solid #3862f5;
+    border-radius: 30px;
+  }
+  .card:hover {
+    border: solid white;
+  }
+  .gallery {
+    display: grid;
+  }
+  hr {
+    display: none;
+  }
+  .gallery h2 {
+    grid-column: 1/-1;
+  }
+  figure {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+  }
+  figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (min-width: 100em) {
+  .dracula {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3rem;
+  }
 }
