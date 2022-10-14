@@ -72,6 +72,9 @@ footer {
   .card:hover {
     border: solid white;
   }
+  figure img:hover {
+    border: solid white;
+  }
   .gallery {
     display: grid;
   }
