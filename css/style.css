@@ -74,6 +74,11 @@ footer {
   border-radius: 50%;
 }
 
+.name {
+  font-size: 2rem;
+  text-shadow: 3px 3px 3px #3862f5;
+}
+
 @media screen and (min-width: 60em) {
   .bio-grid {
     display: grid;
