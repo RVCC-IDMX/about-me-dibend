@@ -122,6 +122,10 @@ footer {
     box-shadow: 10px 10px 10px #3862f5;
     border: solid white;
   }
+  button:hover {
+    color: #f5c239;
+    border: dotted #f5c239;
+  }
 }
 
 @media screen and (min-width: 100em) {
@@ -135,8 +139,19 @@ fieldset {
   display: grid;
 }
 input {
-  height: 2em;
+  height: 1.5em;
 }
 form {
   text-align: left;
+}
+.radio {
+  list-style: none;
+}
+textarea {
+  height: 20vh;
+}
+button {
+  background-color: #3862f5;
+  color: white;
+  border: solid #3862f5;
 }

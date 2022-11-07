@@ -129,7 +129,12 @@
     </main>
     <section id="contact">
       <h2>Contact Me</h2>
-      <form>
+      <form
+        name="contactForm"
+        id="contactForm"
+        method="post"
+        data-netlify="true"
+      >
         <fieldset>
           <legend>Contact Form</legend>
           * Required
@@ -139,16 +144,37 @@
           <br /><br />
           <input type="tel" name="phone" placeholder="Phone Number" />
           <br /><br />
-          Phone Type
+          Phone Type (Optional)
           <select placeholder="Phone Type">
-            <option>---</option>
+            <option selected>---</option>
             <option>Mobile</option>
             <option>Home</option>
             <option>Office</option>
           </select>
+          <br /><br />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Type your message here!"
+          ></textarea>
+          <fieldset>
+            <legend>Would you like a reply?</legend>
+            <ul>
+              <li class="radio">
+                <input id="yes" type="radio" name="radio" />
+                <label for="yes"> Yes </label>
+              </li>
+              <li class="radio">
+                <input checked id="no" type="radio" name="radio" />
+                <label for="no"> No </label>
+              </li>
+            </ul>
+          </fieldset>
+          <button type="submit"><h2>Send me a message!</h2></button>
         </fieldset>
       </form>
     </section>
+    <br /><br />
     <footer>Copyright &copy; David DiBenedetto 2022</footer>
   </body>
 </html>
