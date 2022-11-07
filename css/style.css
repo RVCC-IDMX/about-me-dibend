@@ -143,6 +143,8 @@ input,
 select {
   height: 5vh;
   font-size: 1.2rem;
+  min-height: 20px;
+  margin: 30px;
 }
 form {
   text-align: left;
@@ -171,4 +173,7 @@ fieldset {
 }
 iframe {
   max-width: 90%;
+}
+#town {
+  font-size: 1.5rem;
 }
