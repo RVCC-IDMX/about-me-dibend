@@ -124,7 +124,8 @@ footer {
   }
   button:hover {
     color: #f5c239;
-    border: dotted #f5c239;
+    border: dashed #f5c239;
+    text-shadow: 1px 1px white;
   }
 }
 
@@ -158,6 +159,7 @@ button {
   color: white;
   border: solid #3862f5;
   margin-top: 20px;
+  border-radius: 15px;
 }
 
 fieldset {
