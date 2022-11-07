@@ -141,6 +141,7 @@ fieldset {
 input,
 select {
   height: 5vh;
+  font-size: 1.5rem;
 }
 form {
   text-align: left;
@@ -150,6 +151,7 @@ form {
 }
 textarea {
   height: 20vh;
+  font-size: 1.5rem;
 }
 button {
   background-color: #3862f5;
@@ -161,4 +163,5 @@ button {
 fieldset {
   border: 5px dashed #3862f5;
   border-radius: 15px;
+  font-size: 1.5rem;
 }
