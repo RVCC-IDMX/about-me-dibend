@@ -131,3 +131,12 @@ footer {
     column-gap: 3rem;
   }
 }
+fieldset {
+  display: grid;
+}
+input {
+  height: 2em;
+}
+form {
+  text-align: left;
+}
