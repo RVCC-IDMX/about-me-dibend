@@ -153,6 +153,7 @@ form {
 textarea {
   height: 20vh;
   font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 button {
   background-color: #3862f5;
