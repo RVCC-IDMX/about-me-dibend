@@ -164,4 +164,5 @@ fieldset {
   border: 5px dashed #3862f5;
   border-radius: 15px;
   font-size: 1.5rem;
+  max-width: 100%;
 }
