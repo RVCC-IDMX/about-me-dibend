@@ -138,8 +138,9 @@ footer {
 fieldset {
   display: grid;
 }
-input {
-  height: 1.5em;
+input,
+select {
+  height: 5vh;
 }
 form {
   text-align: left;
@@ -154,4 +155,9 @@ button {
   background-color: #3862f5;
   color: white;
   border: solid #3862f5;
+  margin-top: 30px;
+}
+
+fieldset {
+  border: 5px solid #3862f5;
 }
