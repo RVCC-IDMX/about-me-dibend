@@ -121,6 +121,7 @@ footer {
   .chief:hover {
     box-shadow: 10px 10px 10px #3862f5;
     border: solid white;
+    animation: shake 0.8s;
   }
   button:hover {
     color: #f5c239;
