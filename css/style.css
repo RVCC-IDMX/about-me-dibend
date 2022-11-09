@@ -194,3 +194,8 @@ iframe {
     transform: translateX(0px);
   }
 }
+button:active {
+  background-color: #f5c239;
+  color: #3862f5;
+  border: dashed #3862f5;
+}
