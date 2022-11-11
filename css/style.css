@@ -199,3 +199,11 @@ button:active {
   color: #3862f5;
   border: dashed #3862f5;
 }
+label {
+  border: dashed #3862f5;
+  padding: 10px;
+  border-radius: 10px;
+}
+#yes, #no {
+  width: 3rem;
+}
