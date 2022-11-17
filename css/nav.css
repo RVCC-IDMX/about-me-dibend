@@ -23,23 +23,44 @@ main {
 
 /* navbar */
 
-
+.navbar {
+  background-color: #3862f5;
+  color: white;
+}
 
 /* logo */
 
+.logo {
+  display: flex;
+  align-items: center;
+}
 
+.logo img {
+  height: 6vw;
+  width: 6vw;
+}
+
+.logo h1 {
+  font-size: 1.2em;
+}
 
 /* navigation list */
 
+.navbar-links li {
+  list-style: none;
+  display: block;
+  padding: 0.5em 0;
+}
 
 /*  
  style all a tags in header 
  and then on hover
 */
 
-
-
-
+.navbar-links a {
+  color: white;
+  
+}
 
 /* 
 media query for non-mobile nav bar
