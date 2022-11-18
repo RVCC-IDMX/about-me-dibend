@@ -86,12 +86,6 @@ such that no text wraps
 */
 
 @media screen and (min-width: 60rem) {
-  .navbar-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
   .navbar {
     flex-direction: row;
     justify-content: space-between;
