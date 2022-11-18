@@ -66,6 +66,14 @@ main {
   display: inline-block;
 }
 
+.navbar-links a:hover,
+.navbar-links a:focus {
+  background-color: #f5c239;
+  color: #3862f5;
+  border: dotted #3862f5;
+  border-radius: 15px;
+}
+
 /* 
 media query for non-mobile nav bar
 min-width set to width of nav elements 
