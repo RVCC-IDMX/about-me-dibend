@@ -59,7 +59,7 @@ footer {
   align-items: center;
 }
 
-.dracula {
+.blog {
   max-width: 100%;
   columns: 40rem;
 }
@@ -142,7 +142,7 @@ footer {
 }
 
 @media screen and (min-width: 100em) {
-  .dracula {
+  .blog {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 3rem;
