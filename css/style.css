@@ -232,15 +232,15 @@ label {
 
 section#contact {
   display: grid;
-  padding: 0.5rem;
+  padding: 0px;
   margin: 0 auto;
-  max-width: 90vw;
+  max-width: 70vw;
 }
 
 fieldset {
-  padding: 0.25rem;
+  padding: 0px;
 }
 
 fieldset ul {
-  padding: 0.5rem;
+  padding: 0px;
 }
