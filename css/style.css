@@ -28,6 +28,14 @@ footer {
   border-radius: 15px;
 }
 
+.initial-logo {
+  text-decoration: none;
+  text-shadow: 5px 5px 5px whitesmoke;
+  color: #f5c239;
+  font-size: 5rem;
+  box-shadow: 5px 5px 5px whitesmoke;
+}
+
 .avatar {
   background-color: #3862f5;
   border: solid white;
