@@ -30,10 +30,11 @@ footer {
 
 .initial-logo {
   text-decoration: none;
-  text-shadow: 5px 5px 5px whitesmoke;
+  text-shadow: 5px 5px 5px white;
   color: #f5c239;
   font-size: 5rem;
-  box-shadow: 5px 5px 5px whitesmoke;
+  box-shadow: 5px 5px 5px white;
+  transition: all 200ms ease-in-out;
 }
 
 .avatar {
@@ -88,6 +89,12 @@ footer {
 }
 
 @media screen and (min-width: 60em) {
+  .initial-logo:hover {
+    color: white;
+    text-shadow: 5px 5px 5px #f5c239;
+    box-shadow: 5px 5px 5px #f5c239;
+  }
+
   .bio-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -248,4 +255,18 @@ section#contact {
 form {
   margin: 0 auto;
   max-width: 90vw;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
 }

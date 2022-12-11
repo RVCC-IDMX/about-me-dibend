@@ -14,6 +14,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About Me</title>
+  <script>
+    function toggle() {
+      const navbarLinks = document.body.querySelector('.navbar-links');
+      if (navbarLinks.style.display === 'none') {
+        navbarLinks.style.display = 'block';
+      } else {
+        navbarLinks.style.display = 'none';
+      }
+    }
+  </script>
 </head>
 
 <body>
@@ -21,7 +31,7 @@
     <nav class="navbar">
       <div class="logo">
         <a class="initial-logo" href="#">D.D.</a>
-        &ensp;<h1>Web Development 1</h1>
+        &ensp;<h1>Web Dev 1</h1>
       </div>
       <div class="navbar-links">
         <ul>
@@ -31,6 +41,7 @@
           <li><a href="#contact">Contact Me</a></li>
         </ul>
       </div>
+      <img onclick="toggle();" width="10%" class="hamburger" src="img/hamburger.png" alt="hamburger icon" />
     </nav>
   </header>
   <main>
