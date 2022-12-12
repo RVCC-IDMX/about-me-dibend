@@ -35,6 +35,7 @@ footer {
   font-size: 5rem;
   box-shadow: 5px 5px 5px white;
   transition: all 200ms ease-in-out;
+  border-radius: 5px;
 }
 
 .avatar {
@@ -71,6 +72,9 @@ footer {
 .blog {
   max-width: 100%;
   columns: 40rem;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px #3862f5;
 }
 
 .dropcap:first-letter {
@@ -174,7 +178,6 @@ select {
 
 form {
   text-align: left;
-  max-width: 100%;
 }
 
 .radio {
