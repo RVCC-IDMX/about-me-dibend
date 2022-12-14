@@ -20,7 +20,7 @@ div {
 footer {
   padding-top: 20px;
   background-color: #3862f5;
-  color: white;
+  color: whitesmoke;
 }
 
 .chief {
@@ -30,17 +30,17 @@ footer {
 
 .initial-logo {
   text-decoration: none;
-  text-shadow: 5px 5px 5px white;
+  text-shadow: 5px 5px 5px whitesmoke;
   color: #f5c239;
   font-size: 5rem;
-  box-shadow: 5px 5px 5px white;
+  box-shadow: 5px 5px 5px whitesmoke;
   transition: all 200ms ease-in-out;
   border-radius: 5px;
 }
 
 .avatar {
   background-color: #3862f5;
-  border: solid white;
+  border: solid whitesmoke;
   border-radius: 30px;
   width: 15rem;
 }
@@ -60,7 +60,7 @@ footer {
 .lit {
   font-family: 'Noto Sans Mono', sans-serif;
   text-align: left;
-  text-shadow: 0.1em 0.1em 0 white;
+  text-shadow: 0.1em 0.1em 0 whitesmoke;
 }
 
 .hobbies {
@@ -94,7 +94,7 @@ footer {
 
 @media screen and (min-width: 60em) {
   .initial-logo:hover {
-    color: white;
+    color: whitesmoke;
     text-shadow: 5px 5px 5px #f5c239;
     box-shadow: 5px 5px 5px #f5c239;
   }
@@ -111,13 +111,13 @@ footer {
   }
 
   .card:hover {
-    border: solid white;
-    text-shadow: 0.1em 0.1em 0 white;
+    border: solid whitesmoke;
+    text-shadow: 0.1em 0.1em 0 whitesmoke;
     font-size: 120%;
   }
 
   figure img:hover {
-    border: solid white;
+    border: solid whitesmoke;
   }
 
   .gallery {
@@ -148,14 +148,14 @@ footer {
 
   .chief:hover {
     box-shadow: 10px 10px 10px #3862f5;
-    border: solid white;
+    border: solid whitesmoke;
     animation: shake 0.8s;
   }
 
   button:hover {
     color: #f5c239;
     border: dashed #f5c239;
-    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px whitesmoke;
     animation: shake 0.8s;
   }
 }
@@ -193,7 +193,7 @@ textarea {
 
 button {
   background-color: #3862f5;
-  color: white;
+  color: whitesmoke;
   border: solid #3862f5;
   margin-top: 20px;
   border-radius: 15px;
@@ -272,4 +272,9 @@ form {
   .hamburger {
     display: block;
   }
+}
+
+#msgbtn {
+  font-size: 2rem;
+  font-weight: bold;
 }
