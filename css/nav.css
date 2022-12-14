@@ -55,6 +55,7 @@ main {
   list-style: none;
   display: block;
   padding: 0.5em 0;
+  transition: all 200ms ease-in-out;
 }
 
 /*  

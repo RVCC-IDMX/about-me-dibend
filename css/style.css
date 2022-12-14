@@ -26,6 +26,7 @@ footer {
 .chief {
   box-shadow: 5px 5px 5px #3862f5;
   border-radius: 15px;
+  transition: all 200ms ease-in-out;
 }
 
 .initial-logo {
@@ -34,8 +35,8 @@ footer {
   color: #f5c239;
   font-size: 5rem;
   box-shadow: 5px 5px 5px whitesmoke;
-  transition: all 200ms ease-in-out;
   border-radius: 5px;
+  transition: all 200ms ease-in-out;
 }
 
 .avatar {
@@ -107,6 +108,7 @@ footer {
   .card {
     border: solid #3862f5;
     border-radius: 30px;
+    transition: all 200ms ease-in-out;
   }
 
   .card:hover {
@@ -199,6 +201,7 @@ button {
   border: solid #3862f5;
   margin-top: 20px;
   border-radius: 15px;
+  transition: all 200ms ease-in-out;
 }
 
 fieldset {
@@ -217,21 +220,28 @@ iframe {
   font-size: 1.5rem;
 }
 
+/* from https://css-tricks.com/snippets/css/shake-css-keyframe-animation/ */
 @keyframes shake {
-  0% {
-    transform: translateX(0);
+
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
   }
 
-  25% {
-    transform: translateX(10px);
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
   }
 
-  50% {
-    transform: translateX(-10px);
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
   }
 
-  100% {
-    transform: translateX(0px);
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
   }
 }
 
