@@ -173,8 +173,9 @@ select {
   height: 5vh;
   font-size: 1.2rem;
   min-height: 20px;
-  margin: 30px;
-  max-width: 70%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: auto;
 }
 
 form {
@@ -190,7 +191,7 @@ textarea {
   font-size: 1.2rem;
   margin-bottom: 20px;
   resize: vertical;
-  max-width: 70%;
+  width: auto;
 }
 
 button {
