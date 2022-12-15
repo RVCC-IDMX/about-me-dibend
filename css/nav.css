@@ -55,7 +55,6 @@ main {
   list-style: none;
   display: block;
   padding: 0.5em 0;
-  transition: all 200ms ease-in-out;
 }
 
 /*  
@@ -70,6 +69,7 @@ main {
   letter-spacing: 2px;
   text-decoration: none;
   display: inline-block;
+  transition: all 200ms ease-in-out;
 }
 
 .navbar-links a:hover,
