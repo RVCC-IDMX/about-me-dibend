@@ -17,7 +17,7 @@
   <script>
     function toggle() {
       const navbarLinks = document.body.querySelector('.navbar-links');
-      if (navbarLinks.style.display === 'none') {
+      if (navbarLinks.style.display !== 'block') {
         navbarLinks.style.display = 'block';
       } else {
         navbarLinks.style.display = 'none';
