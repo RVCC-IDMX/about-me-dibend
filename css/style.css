@@ -118,7 +118,8 @@ footer {
   }
 
   figure img:hover {
-    border: solid whitesmoke;
+    border: solid 1px white;
+    box-shadow: 5px 5px 5px whitesmoke;
   }
 
   .gallery {
@@ -292,4 +293,16 @@ form {
   font-weight: bold;
   width: 70%;
   margin: auto;
+}
+
+.f150 {
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px #3862f5;
+  transition: all 200ms ease-in-out;
+}
+
+.f150:hover {
+  border-radius: 20px;
+  box-shadow: 7px 7px 7px whitesmoke;
+  border: solid 1px white;
 }
