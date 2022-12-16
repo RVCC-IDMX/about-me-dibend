@@ -44,6 +44,7 @@ footer {
   border: solid whitesmoke;
   border-radius: 30px;
   width: 15rem;
+  transition: all 200ms ease-in-out;
 }
 
 .hobbies ul {
@@ -76,6 +77,7 @@ footer {
   background-color: whitesmoke;
   border-radius: 15px;
   box-shadow: 5px 5px 5px #3862f5;
+  border: solid 1px #3862f5;
 }
 
 .dropcap:first-letter {
@@ -306,4 +308,22 @@ form {
   border-radius: 20px;
   box-shadow: 7px 7px 7px whitesmoke;
   border: solid 1px white;
+}
+
+.profile {
+  border: solid 1px whitesmoke;
+  box-shadow: 5px 5px 5px #3862f5;
+  border-radius: 30%;
+  transition: all 200ms ease-in-out;
+}
+
+.profile:hover {
+  border: solid 5px whitesmoke;
+  box-shadow: 7px 7px 7px #3862f5;
+  transition: all 200ms ease-in-out;
+  border-radius: 35%;
+}
+
+.avatar:hover {
+  background-color: #f5c239;
 }
