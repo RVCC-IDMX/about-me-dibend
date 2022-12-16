@@ -74,10 +74,16 @@ footer {
 .blog {
   max-width: 100%;
   columns: 40rem;
-  background-color: whitesmoke;
+  background: linear-gradient(#f5c239, #3862f5, #f5c239);
+  text-shadow: 2px 2px 2px black;
+  color: whitesmoke;
   border-radius: 15px;
   box-shadow: 5px 5px 5px #3862f5;
   border: solid 1px #3862f5;
+}
+
+.blog a {
+  color: white;
 }
 
 .dropcap:first-letter {
