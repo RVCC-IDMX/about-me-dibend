@@ -315,6 +315,7 @@ form {
   box-shadow: 5px 5px 5px #3862f5;
   border-radius: 30%;
   transition: all 200ms ease-in-out;
+  max-width: 50%;
 }
 
 .profile:hover {
