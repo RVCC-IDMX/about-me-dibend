@@ -96,6 +96,17 @@ footer {
 }
 
 @media screen and (min-width: 60em) {
+  .profile:hover {
+    border: solid 5px whitesmoke;
+    box-shadow: 7px 7px 7px #3862f5;
+    transition: all 200ms ease-in-out;
+    border-radius: 35%;
+  }
+
+  .avatar:hover {
+    background-color: #f5c239;
+  }
+
   .initial-logo:hover {
     color: whitesmoke;
     text-shadow: 5px 5px 5px #f5c239;
@@ -318,13 +329,6 @@ form {
   max-width: 50%;
 }
 
-.profile:hover {
-  border: solid 5px whitesmoke;
-  box-shadow: 7px 7px 7px #3862f5;
-  transition: all 200ms ease-in-out;
-  border-radius: 35%;
-}
-
-.avatar:hover {
-  background-color: #f5c239;
+#github {
+  padding-top: 5%;
 }
