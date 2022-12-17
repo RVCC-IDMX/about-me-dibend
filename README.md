@@ -18,7 +18,8 @@ Below that is my hobbies where I wrote an article including another photo with h
 Then is my gallery of hobby pictures aligned with CSS grid.<br><br>
 Next is an embedded video of my dog getting a bone. We learned about iframes in this excercise which can be used to embed websites and videos.<br><br>
 After that is my crypto currency mining blog with a linear gradient background.<br><br>
-Finally there is a contact form and a link here to the source code.
+Finally there is a contact form and a link here to the source code.<br><br>
+I used my knowledge of cryptocurrency mining learned by various YouTube channels and cryptocurrency websites like neoxa.net, ethereumclassic.org, grin.mw, getmonero.org, ethereum.org, and bitcoin.org.
 
 
 
