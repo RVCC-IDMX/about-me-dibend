@@ -4,6 +4,7 @@
 <br><br>
 This is my about me website developed to learn about web development for a college class at Raritan Valley Community College.<br>
 I designed this website with my favorite color as the background color.<br>
+<div style="background-color: #f5c239"><br></div>
 I found a complementary blue to my favorite color with <a href="https://color.adobe.com">Adobe Color</a> to add to other elements on the page and I used the built in CSS color whitesmoke on the website as well.<br><br>
 At the top of the page is a nav bar which is collapsible on a mobile screen with a hamburger button.<br>
 I used what I learned in my JavaScript class to make the hamburger icon change the page when clicked.<br>
