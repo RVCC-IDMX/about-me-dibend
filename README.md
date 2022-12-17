@@ -3,9 +3,9 @@
 <a href="https://app.netlify.com/sites/about-me-dibend/deploys"><img src="https://api.netlify.com/api/v1/badges/7bba2379-62c8-48cf-9016-736bbe8ed0e0/deploy-status" alt="deploy status" /></a>
 <br><br>
 This is my about me website developed to learn about web development for a college class at Raritan Valley Community College.<br>
-I designed this website with my favorite color as the background color.
+I designed this website with my favorite color (#f5c239) as the background color.
 <img src="https://user-images.githubusercontent.com/20129616/208213678-a659fd96-7385-4bc6-a8c2-df8efcb51628.png" alt="color1" /><br><br>
-I found a complementary blue to my favorite color with <a href="https://color.adobe.com">Adobe Color</a> to add to other elements on the page 
+I found a complementary blue (#3862f5)to my favorite color with <a href="https://color.adobe.com">Adobe Color</a> to add to other elements on the page 
 <img src="https://user-images.githubusercontent.com/20129616/208213777-410fa728-7df7-4e8e-b7b3-689e05b86ad3.png" alt="color2" />
 and I used the built in CSS color whitesmoke on the website as well.<br><br>
 At the top of the page is a nav bar which is collapsible on a mobile screen with a hamburger button.<br>
